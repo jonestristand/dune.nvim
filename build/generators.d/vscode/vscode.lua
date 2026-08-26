@@ -4,6 +4,10 @@
 -- icon.png is rendered from icon.svg beside this file; after editing the SVG:
 --   rsvg-convert -w 256 -h 256 build/generators.d/vscode/icon.svg \
 --     -o build/generators.d/vscode/icon.png
+-- The README screenshots live in the dune.nvim-site repo (served at
+-- dune-nvim.tdjones.ca/vscode/, referenced by absolute URL) so plugin
+-- managers don't pull them with every install; after a palette change:
+--   python3 build/generators.d/vscode/screenshots/render.py
 
 local BOLD = ',\n        "fontStyle": "bold"'
 
