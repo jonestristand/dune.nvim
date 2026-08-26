@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/jonestristand/dune.nvim/actions/workflows/check.yml"><img alt="check" src="https://github.com/jonestristand/dune.nvim/actions/workflows/check.yml/badge.svg"/></a>
-  <img alt="version" src="https://img.shields.io/badge/version-0.1.0-DDB05E"/>
+  <img alt="version" src="https://img.shields.io/badge/version-0.2.0-DDB05E"/>
   <a href="https://dune-nvim.tdjones.ca"><img alt="showcase site" src="https://img.shields.io/badge/showcase-dune--nvim.tdjones.ca-E5913A"/></a>
   <img alt="Neovim colourscheme" src="https://img.shields.io/badge/Neovim-colourscheme-649CD6?logo=neovim&logoColor=white"/>
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-A188CC"/></a>
