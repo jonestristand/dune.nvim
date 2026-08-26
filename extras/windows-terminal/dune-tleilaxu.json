@@ -1,0 +1,23 @@
+{
+  "name": "dune-tleilaxu",
+  "background": "#131813",
+  "foreground": "#CDD5C2",
+  "cursorColor": "#CDD5C2",
+  "selectionBackground": "#283128",
+  "black": "#1C241C",
+  "red": "#CC6055",
+  "green": "#7EA770",
+  "yellow": "#BDB47B",
+  "blue": "#98BDB8",
+  "purple": "#A188CC",
+  "cyan": "#85B7AE",
+  "white": "#A7B09B",
+  "brightBlack": "#788574",
+  "brightRed": "#CC6055",
+  "brightGreen": "#7EA770",
+  "brightYellow": "#BDB47B",
+  "brightBlue": "#98BDB8",
+  "brightPurple": "#A188CC",
+  "brightCyan": "#85B7AE",
+  "brightWhite": "#CDD5C2"
+}

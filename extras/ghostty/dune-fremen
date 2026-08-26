@@ -1,0 +1,23 @@
+# dune-fremen - the desert hides its life
+palette = 0=#272117
+palette = 1=#CC6341
+palette = 2=#98A967
+palette = 3=#D2A855
+palette = 4=#5D9BC8
+palette = 5=#A188CC
+palette = 6=#C9D2D4
+palette = 7=#C6B287
+palette = 8=#928463
+palette = 9=#CC6341
+palette = 10=#98A967
+palette = 11=#D2A855
+palette = 12=#5D9BC8
+palette = 13=#A188CC
+palette = 14=#C9D2D4
+palette = 15=#E6D5A9
+background = #1B1710
+foreground = #E6D5A9
+cursor-color = #E6D5A9
+cursor-text = #1B1710
+selection-background = #362E20
+selection-foreground = #E6D5A9

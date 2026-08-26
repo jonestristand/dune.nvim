@@ -1,0 +1,23 @@
+# dune-corrino - the golden lion throne
+palette = 0=#2A1C22
+palette = 1=#CE5B6B
+palette = 2=#99A75E
+palette = 3=#D4A63F
+palette = 4=#7290D9
+palette = 5=#A188CC
+palette = 6=#87A0AD
+palette = 7=#CFBC96
+palette = 8=#9A8781
+palette = 9=#CE5B6B
+palette = 10=#99A75E
+palette = 11=#D4A63F
+palette = 12=#7290D9
+palette = 13=#A188CC
+palette = 14=#87A0AD
+palette = 15=#F2E2B8
+background = #1D1318
+foreground = #F2E2B8
+cursor-color = #EFB63B
+cursor-text = #1D1318
+selection-background = #5A4526
+selection-foreground = #F2E2B8

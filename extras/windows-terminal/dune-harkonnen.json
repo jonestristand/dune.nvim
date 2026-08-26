@@ -1,0 +1,23 @@
+{
+  "name": "dune-harkonnen",
+  "background": "#111113",
+  "foreground": "#EEEDEA",
+  "cursorColor": "#EEEDEA",
+  "selectionBackground": "#29292E",
+  "black": "#1B1B1E",
+  "red": "#D05837",
+  "green": "#7E8D80",
+  "yellow": "#C4AE62",
+  "blue": "#7E99B4",
+  "purple": "#A188CC",
+  "cyan": "#E4F1FF",
+  "white": "#C9C7C2",
+  "brightBlack": "#7E7D82",
+  "brightRed": "#D05837",
+  "brightGreen": "#7E8D80",
+  "brightYellow": "#C4AE62",
+  "brightBlue": "#7E99B4",
+  "brightPurple": "#A188CC",
+  "brightCyan": "#E4F1FF",
+  "brightWhite": "#EEEDEA"
+}

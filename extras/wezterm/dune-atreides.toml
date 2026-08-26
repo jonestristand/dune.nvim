@@ -1,0 +1,32 @@
+# dune-atreides - the shoreline of two worlds
+[colors]
+background = "#141B2A"
+foreground = "#EAD9B4"
+cursor_bg = "#EAD9B4"
+cursor_fg = "#141B2A"
+cursor_border = "#EAD9B4"
+selection_bg = "#2C3B4D"
+selection_fg = "#EAD9B4"
+ansi = [
+  "#1E2938",
+  "#CB6854",
+  "#7FA871",
+  "#DDB05E",
+  "#649CD6",
+  "#A188CC",
+  "#8AC6BF",
+  "#C9B58B",
+]
+brights = [
+  "#7C8899",
+  "#CB6854",
+  "#7FA871",
+  "#DDB05E",
+  "#649CD6",
+  "#A188CC",
+  "#8AC6BF",
+  "#EAD9B4",
+]
+
+[metadata]
+name = "dune-atreides"

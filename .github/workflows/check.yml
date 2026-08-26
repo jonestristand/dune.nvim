@@ -1,0 +1,14 @@
+name: check
+on:
+  push:
+  pull_request:
+
+jobs:
+  generated-files-fresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Neovim
+        run: sudo apt-get update && sudo apt-get install -y neovim
+      - name: Verify generated files are up to date
+        run: nvim -l build/generate.lua --check

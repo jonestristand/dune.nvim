@@ -1,0 +1,23 @@
+{
+  "name": "dune-fremen",
+  "background": "#1B1710",
+  "foreground": "#E6D5A9",
+  "cursorColor": "#E6D5A9",
+  "selectionBackground": "#362E20",
+  "black": "#272117",
+  "red": "#CC6341",
+  "green": "#98A967",
+  "yellow": "#D2A855",
+  "blue": "#5D9BC8",
+  "purple": "#A188CC",
+  "cyan": "#C9D2D4",
+  "white": "#C6B287",
+  "brightBlack": "#928463",
+  "brightRed": "#CC6341",
+  "brightGreen": "#98A967",
+  "brightYellow": "#D2A855",
+  "brightBlue": "#5D9BC8",
+  "brightPurple": "#A188CC",
+  "brightCyan": "#C9D2D4",
+  "brightWhite": "#E6D5A9"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "dune-atreides",
+  "background": "#141B2A",
+  "foreground": "#EAD9B4",
+  "cursorColor": "#EAD9B4",
+  "selectionBackground": "#2C3B4D",
+  "black": "#1E2938",
+  "red": "#CB6854",
+  "green": "#7FA871",
+  "yellow": "#DDB05E",
+  "blue": "#649CD6",
+  "purple": "#A188CC",
+  "cyan": "#8AC6BF",
+  "white": "#C9B58B",
+  "brightBlack": "#7C8899",
+  "brightRed": "#CB6854",
+  "brightGreen": "#7FA871",
+  "brightYellow": "#DDB05E",
+  "brightBlue": "#649CD6",
+  "brightPurple": "#A188CC",
+  "brightCyan": "#8AC6BF",
+  "brightWhite": "#EAD9B4"
+}

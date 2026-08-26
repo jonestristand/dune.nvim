@@ -1,0 +1,23 @@
+{
+  "name": "dune-corrino",
+  "background": "#1D1318",
+  "foreground": "#F2E2B8",
+  "cursorColor": "#EFB63B",
+  "selectionBackground": "#5A4526",
+  "black": "#2A1C22",
+  "red": "#CE5B6B",
+  "green": "#99A75E",
+  "yellow": "#D4A63F",
+  "blue": "#7290D9",
+  "purple": "#A188CC",
+  "cyan": "#87A0AD",
+  "white": "#CFBC96",
+  "brightBlack": "#9A8781",
+  "brightRed": "#CE5B6B",
+  "brightGreen": "#99A75E",
+  "brightYellow": "#D4A63F",
+  "brightBlue": "#7290D9",
+  "brightPurple": "#A188CC",
+  "brightCyan": "#87A0AD",
+  "brightWhite": "#F2E2B8"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "dune-nvim",
+  "displayName": "Dune.nvim Themes",
+  "description": "Four colourschemes — Atreides, Harkonnen, Corrino, and Fremen. There is no fifth theme.",
+  "version": "0.1.0",
+  "publisher": "jonestristand",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonestristand/dune.nvim"
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "dune",
+    "atreides",
+    "harkonnen",
+    "corrino",
+    "fremen",
+    "tleilaxu"
+  ],
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dune Atreides",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-atreides-color-theme.json"
+      },
+      {
+        "label": "Dune Harkonnen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-harkonnen-color-theme.json"
+      },
+      {
+        "label": "Dune Corrino",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-corrino-color-theme.json"
+      },
+      {
+        "label": "Dune Fremen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-fremen-color-theme.json"
+      },
+      {
+        "label": "Dune Tleilaxu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dune-tleilaxu-color-theme.json"
+      }
+    ]
+  }
+}

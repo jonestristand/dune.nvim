@@ -1,0 +1,32 @@
+# dune-tleilaxu - there is no fifth theme
+[colors]
+background = "#131813"
+foreground = "#CDD5C2"
+cursor_bg = "#CDD5C2"
+cursor_fg = "#131813"
+cursor_border = "#CDD5C2"
+selection_bg = "#283128"
+selection_fg = "#CDD5C2"
+ansi = [
+  "#1C241C",
+  "#CC6055",
+  "#7EA770",
+  "#BDB47B",
+  "#98BDB8",
+  "#A188CC",
+  "#85B7AE",
+  "#A7B09B",
+]
+brights = [
+  "#788574",
+  "#CC6055",
+  "#7EA770",
+  "#BDB47B",
+  "#98BDB8",
+  "#A188CC",
+  "#85B7AE",
+  "#CDD5C2",
+]
+
+[metadata]
+name = "dune-tleilaxu"

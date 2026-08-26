@@ -1,0 +1,33 @@
+# dune-harkonnen - the black sun (hard monochrome)
+
+[colors.primary]
+background = "#111113"
+foreground = "#EEEDEA"
+
+[colors.cursor]
+text = "#111113"
+cursor = "#EEEDEA"
+
+[colors.selection]
+text = "#EEEDEA"
+background = "#29292E"
+
+[colors.normal]
+black = "#1B1B1E"
+red = "#D05837"
+green = "#7E8D80"
+yellow = "#C4AE62"
+blue = "#7E99B4"
+magenta = "#A188CC"
+cyan = "#E4F1FF"
+white = "#C9C7C2"
+
+[colors.bright]
+black = "#7E7D82"
+red = "#D05837"
+green = "#7E8D80"
+yellow = "#C4AE62"
+blue = "#7E99B4"
+magenta = "#A188CC"
+cyan = "#E4F1FF"
+white = "#EEEDEA"

@@ -1,0 +1,35 @@
+name: publish
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  vscode-marketplaces:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tag must match VERSION
+        run: |
+          tag="${GITHUB_REF_NAME#v}"
+          version=$(cat VERSION)
+          if [ "$tag" != "$version" ]; then
+            echo "tag v$tag != VERSION $version (release with just bump)"
+            exit 1
+          fi
+      - name: Install Neovim
+        run: sudo apt-get update && sudo apt-get install -y neovim
+      - name: Generate
+        run: nvim -l build/generate.lua
+      - name: Publish to Open VSX
+        id: open-vsx
+        uses: HaaLeo/publish-vscode-extension@v2
+        with:
+          pat: ${{ secrets.OVSX_PAT }}
+          registryUrl: https://open-vsx.org
+          packagePath: extras/vscode/dune.nvim
+      - name: Publish to VS Marketplace
+        uses: HaaLeo/publish-vscode-extension@v2
+        with:
+          pat: ${{ secrets.VSCE_PAT }}
+          registryUrl: https://marketplace.visualstudio.com
+          extensionFile: ${{ steps.open-vsx.outputs.vsixPath }}

@@ -1,0 +1,23 @@
+# dune-harkonnen - the black sun (hard monochrome)
+palette = 0=#1B1B1E
+palette = 1=#D05837
+palette = 2=#7E8D80
+palette = 3=#C4AE62
+palette = 4=#7E99B4
+palette = 5=#A188CC
+palette = 6=#E4F1FF
+palette = 7=#C9C7C2
+palette = 8=#7E7D82
+palette = 9=#D05837
+palette = 10=#7E8D80
+palette = 11=#C4AE62
+palette = 12=#7E99B4
+palette = 13=#A188CC
+palette = 14=#E4F1FF
+palette = 15=#EEEDEA
+background = #111113
+foreground = #EEEDEA
+cursor-color = #EEEDEA
+cursor-text = #111113
+selection-background = #29292E
+selection-foreground = #EEEDEA

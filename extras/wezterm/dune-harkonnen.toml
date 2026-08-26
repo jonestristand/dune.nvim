@@ -1,0 +1,32 @@
+# dune-harkonnen - the black sun (hard monochrome)
+[colors]
+background = "#111113"
+foreground = "#EEEDEA"
+cursor_bg = "#EEEDEA"
+cursor_fg = "#111113"
+cursor_border = "#EEEDEA"
+selection_bg = "#29292E"
+selection_fg = "#EEEDEA"
+ansi = [
+  "#1B1B1E",
+  "#D05837",
+  "#7E8D80",
+  "#C4AE62",
+  "#7E99B4",
+  "#A188CC",
+  "#E4F1FF",
+  "#C9C7C2",
+]
+brights = [
+  "#7E7D82",
+  "#D05837",
+  "#7E8D80",
+  "#C4AE62",
+  "#7E99B4",
+  "#A188CC",
+  "#E4F1FF",
+  "#EEEDEA",
+]
+
+[metadata]
+name = "dune-harkonnen"

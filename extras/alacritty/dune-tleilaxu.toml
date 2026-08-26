@@ -1,0 +1,33 @@
+# dune-tleilaxu - there is no fifth theme
+
+[colors.primary]
+background = "#131813"
+foreground = "#CDD5C2"
+
+[colors.cursor]
+text = "#131813"
+cursor = "#CDD5C2"
+
+[colors.selection]
+text = "#CDD5C2"
+background = "#283128"
+
+[colors.normal]
+black = "#1C241C"
+red = "#CC6055"
+green = "#7EA770"
+yellow = "#BDB47B"
+blue = "#98BDB8"
+magenta = "#A188CC"
+cyan = "#85B7AE"
+white = "#A7B09B"
+
+[colors.bright]
+black = "#788574"
+red = "#CC6055"
+green = "#7EA770"
+yellow = "#BDB47B"
+blue = "#98BDB8"
+magenta = "#A188CC"
+cyan = "#85B7AE"
+white = "#CDD5C2"

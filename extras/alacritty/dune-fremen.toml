@@ -1,0 +1,33 @@
+# dune-fremen - the desert hides its life
+
+[colors.primary]
+background = "#1B1710"
+foreground = "#E6D5A9"
+
+[colors.cursor]
+text = "#1B1710"
+cursor = "#E6D5A9"
+
+[colors.selection]
+text = "#E6D5A9"
+background = "#362E20"
+
+[colors.normal]
+black = "#272117"
+red = "#CC6341"
+green = "#98A967"
+yellow = "#D2A855"
+blue = "#5D9BC8"
+magenta = "#A188CC"
+cyan = "#C9D2D4"
+white = "#C6B287"
+
+[colors.bright]
+black = "#928463"
+red = "#CC6341"
+green = "#98A967"
+yellow = "#D2A855"
+blue = "#5D9BC8"
+magenta = "#A188CC"
+cyan = "#C9D2D4"
+white = "#E6D5A9"

@@ -1,0 +1,33 @@
+# dune-atreides - the shoreline of two worlds
+
+[colors.primary]
+background = "#141B2A"
+foreground = "#EAD9B4"
+
+[colors.cursor]
+text = "#141B2A"
+cursor = "#EAD9B4"
+
+[colors.selection]
+text = "#EAD9B4"
+background = "#2C3B4D"
+
+[colors.normal]
+black = "#1E2938"
+red = "#CB6854"
+green = "#7FA871"
+yellow = "#DDB05E"
+blue = "#649CD6"
+magenta = "#A188CC"
+cyan = "#8AC6BF"
+white = "#C9B58B"
+
+[colors.bright]
+black = "#7C8899"
+red = "#CB6854"
+green = "#7FA871"
+yellow = "#DDB05E"
+blue = "#649CD6"
+magenta = "#A188CC"
+cyan = "#8AC6BF"
+white = "#EAD9B4"
