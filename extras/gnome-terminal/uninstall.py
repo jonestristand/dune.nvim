@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# dune.nvim theme 0.2.1 - remove the GNOME Terminal profiles that
+# dune.nvim theme 0.2.2 - remove the GNOME Terminal profiles that
 # install.py created. Generated from lua/dune/palettes.lua - do not edit
 # by hand.
 #
