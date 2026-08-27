@@ -187,6 +187,35 @@ function M.load(house)
   hl("@diff.minus",           { fg = c.err })
   hl("@diff.delta",           { fg = c.num })
 
+  -- LSP semantic tokens ------------------------------------------------
+  -- semantic tokens paint over treesitter at higher priority, and they
+  -- don't distinguish definition from call - cleared groups keep the
+  -- treesitter colour (ghola definition/copy split, parameter italics,
+  -- todo-comments inside comments)
+  hl("@lsp.type.function",      {})
+  hl("@lsp.type.method",        {})
+  hl("@lsp.type.variable",      {})
+  hl("@lsp.type.comment",       {})
+  hl("@lsp.type.class",         { link = "@type" })
+  hl("@lsp.type.struct",        { link = "@type" })
+  hl("@lsp.type.enum",          { link = "@type" })
+  hl("@lsp.type.interface",     { link = "@type" })
+  hl("@lsp.type.typeParameter", { link = "@type" })
+  hl("@lsp.type.builtinType",   { link = "@type.builtin" })
+  hl("@lsp.type.enumMember",    { link = "@constant" })
+  hl("@lsp.type.namespace",     { link = "@module" })
+  hl("@lsp.type.parameter",     { link = "@variable.parameter" })
+  hl("@lsp.type.property",      { link = "@property" })
+  hl("@lsp.type.keyword",       { link = "@keyword" })
+  hl("@lsp.type.macro",         { link = "Macro" })
+  hl("@lsp.type.decorator",     { link = "@attribute" })
+  hl("@lsp.type.selfParameter", { link = "@variable.builtin" })
+  hl("@lsp.type.selfKeyword",   { link = "@variable.builtin" })
+  hl("@lsp.mod.deprecated",     { strikethrough = true })
+  hl("@lsp.typemod.function.defaultLibrary", { link = "@function.builtin" })
+  hl("@lsp.typemod.method.defaultLibrary",   { link = "@function.builtin" })
+  hl("@lsp.typemod.variable.defaultLibrary", { link = "@variable.builtin" })
+
   -- Diagnostics --------------------------------------------------------
   hl("DiagnosticError", { fg = c.err })
   hl("DiagnosticWarn",  { fg = c.num })
