@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# dune.nvim theme 0.2.0 - GNOME Terminal profiles.
+# dune.nvim theme 0.2.1 - GNOME Terminal profiles.
 # Generated from lua/dune/palettes.lua - do not edit by hand.
 #
 # Creates one GNOME Terminal profile per house. The UUIDs are fixed, so

@@ -2,7 +2,7 @@
   "name": "dune-nvim",
   "displayName": "Dune.nvim Themes",
   "description": "Four colourschemes — Atreides, Harkonnen, Corrino, and Fremen. There is no fifth theme.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "jonestristand",
   "license": "MIT",
   "icon": "icon.png",
